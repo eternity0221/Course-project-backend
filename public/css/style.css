@@ -1,0 +1,23 @@
+#wrapper {min-height: 100vh;}
+
+.wrapper-page {
+     /*@include grid($templateRows:minmax(64px,auto) 1fr minmax(240px,auto));*/
+    display: grid;
+    grid-template-rows: minmax(90px, auto) 1fr minmax(240px, auto);
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.news-descr {
+    font-family: Apple;
+    font-size: 20px;
+}
+
+.news-created_at {
+    font-family: Apple;
+    font-size: 20px;
+}
+
